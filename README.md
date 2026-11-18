@@ -41,3 +41,7 @@ frames = simulate(Pose(0, 0, 0), Pose(1.5, 0.5, 1.57),
 2. **Kajita 等，2003，Biped Walking Pattern Generation by Using Preview Control of Zero-Moment Point。** 了解如何从未来几步的支撑位置生成 ZMP 参考，再通过预瞄控制求质心轨迹。[DOI](https://doi.org/10.1109/ROBOT.2003.1241826)
 3. **Pratt 等，2006，Capture Point: A Step toward Humanoid Push Recovery。** 理解如何根据质心状态调整落脚点，适合在物理仿真中加入受扰后的反馈。
 4. **Kuffner 等，2001，Footstep Planning for a Humanoid Robot Among Obstacles。** 如果要从空地走向绕障碍物，重点看左右脚状态、可行落脚动作和碰撞检查。
+
+## 研究报告
+
+[晃动平台上的人形机器人行走](docs/moving-platform-locomotion-report.md)涵盖海上平台、地铁车厢、证据边界和闭环实验路线。
